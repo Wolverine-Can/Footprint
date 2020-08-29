@@ -1,0 +1,109 @@
+html {
+	position: relative;
+}
+body {
+  height: 100%;
+  font-family: 'Special Elite', cursive;
+}
+input{
+	opacity:0.9;
+}
+textarea{
+	opacity:0.9;
+}
+.showBackground {
+	background-image: url(https://i.imgur.com/o4yIHSn.jpg);
+    background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+.welcome {
+	font-family: 'Special Elite', cursive;
+	color:white;
+}
+
+.jumbotron {
+	background-image: url(https://i.imgur.com/QuKL4Mr.jpg);
+	background-size: cover;
+}
+
+.jumbotron a{
+	color : Black;
+	opacity: 0.7;
+    background-color: white
+}
+
+form label {
+	color:#d8ff7d;
+}
+
+.goBack {
+ 	color:#d8ff7d;
+}
+
+form button {
+ opacity:0.8;
+}
+
+.form-group{
+	margin:0;
+}
+
+.form-group label{
+	margin-top: 15px;
+}
+
+.form-group button{
+	margin-top: 15px;
+}
+
+.description {
+	padding-bottom:30px;
+	size:20;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 20% auto;
+}
+
+.form-signin button{
+  opacity: 0.8;
+  background-color: #23918e
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.delete-form {
+	display: inline;
+}
+
+.card-title-text {
+	font-family: 'Special Elite', cursive;
+	font-size: 20px;
+}
+
+.homepage{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}

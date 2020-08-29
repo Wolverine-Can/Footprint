@@ -1,0 +1,27 @@
+<%- include("../partials/header") %>
+
+<div class = "container">
+	<header class = "jumbotron">
+		<div class = "container">
+			<h1 class = "welcome"><i class="fas fa-shoe-prints fa-rotate-270"></i> Welcome To Footprint</h1>
+			<p class = "welcome" style = "padding-right:40%">View our breathtaking photos, share must-visit places you have been to, and plan your next trip!</p>
+			<p>
+				<a class = "btn btn-secondary btn-lg" href = "/gallery/new">Share a photo</a>
+			</p>
+		</div>
+	</header>
+
+	<div class = "row text-center" style = "display:flex; flex-wrap:wrap;">
+		<% campgrounds.forEach(function(campground){ %>
+		<div class = "col-lg-3 col-md-4 col-sm-6 mb-4">
+			<div class="card">
+			  <a href="/gallery/<%= campground._id %>"><img class="card-img-top homepage" src="<%= campground.image %>" alt="campground.name"></a>
+			  <div class="card-body">
+				  <h5 class="card-title, card-title-text"><%= campground.name %></h5>
+			  </div>
+			</div>
+		</div>
+		<% }); %>
+	</div>
+</div>
+<%- include("../partials/footer") %>
