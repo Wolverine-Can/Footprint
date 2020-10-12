@@ -1,5 +1,5 @@
 # Footprint
-Footprint is a Yelp like Node.js web application where users can log in/out, view, post travel destinations and leave comments.
+Footprint is a Yelp-like Node.js web application where users can log in/out, post, view, edit and delete travel blogs and comments, and view locations through the embedded google map.
 
 Make sure to try it yourself: [Footprint online](https://footprint-candeng.herokuapp.com/). You can log in with this guest account:
 ```
@@ -14,9 +14,9 @@ This project is refactor of YelpCamp from Udemy course : [The Web Developer Boot
 
 ## Features
 - User registration/login/logout
-- Proper authorization
+- User authentication and authorization
 - Location with Google Map
-- Restful routes
+- RESTful routes
 - Friendly and interactive UI
 - Background animation on landing page
 - Flash messages
@@ -35,7 +35,7 @@ This project is refactor of YelpCamp from Udemy course : [The Web Developer Boot
 - MongoDB
 - mongoose
 - Google Maps APIs
-- ejs
+- Ejs
 - passport
 - body-parser
 - express-session
